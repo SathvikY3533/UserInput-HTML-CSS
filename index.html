@@ -7,12 +7,31 @@
         <title>Tech Trivia</title>
         <nav class="links">
             <a href="#" class="mainPage">Main Page</a>
-            <a href="questions.html" class="questions">Questions</a>
+            <!-- <a href="questions.html" class="questions">Questions</a> -->
         </nav>
     </head>
     <body>
         <h1>Technology Trivia</h1>
         <h3>This trivia will ask questions about technology from the first time it developed. Click on the questions tab above to continue...</h3>
-        
+        <p>
+            <form action="submission.html" method="POST">
+                <section class="question1">
+                    <span>When did Apple first release its iphone? </span> <br>
+                    <input type="radio" id="2009" name="q1" value="q1">
+                    <label for="2009">2009</label> <br>
+                    <input type="radio" id="2007" name="q1" value="2007">
+                    <label for="2007">2007</label> <br>
+                    <input type="radio" id="2002" name="q1" value="2002">
+                    <label for="2002">2002</label> <br>
+                    <input type="radio" id="2012" name="q1" value="2012">
+                    <label for="2012">2012</label> <br><br>
+                </section>
+
+                <section class="submit">
+                    <input type="submit" value="Submit">
+                </section>
+            </form>
+        </p>
+
     </body>
 </html>
