@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <script type="text/javascript" src="showAnswer.js" defer></script>
+        <title>Create A Question</title>
+        <nav class="links">
+            <a href="index.html" class="mainPage">Main Page</a>
+        </nav>
+    </head>
+    <body>
+        <h1>Create A Question</h1>
+        <p>
+            <form action="questionCreated.html" method="GET">
+                <section class="questionCreate">
+                    <span>Enter the question: </span>
+                    <input type="text" id="question" name="qTitle" required><br>
+                    <span>Enter first answer choice: </span>
+                    <input type="text" id="ans1" name="ans1" required><br>
+                    <span>Enter second answer choice: </span>
+                    <input type="text" id="ans2" name="ans2" required><br>
+                    <span>Enter third answer choice: </span>
+                    <input type="text" id="ans3" name="ans3" required><br>
+                    <span>Enter fourth answer choice: </span>
+                    <input type="text" id="ans3" name="ans4" required><br>
+                    <span>Enter the correct answer: </span>
+                    <input type="text" id="correctAnswer" name="correctAnswer" required><br><br>
+                </section>
+
+                <section class="submit">
+                    <input type="submit" value="Create">
+                </section>
+            </form>
+        </p>
+
+    </body>
+</html>
